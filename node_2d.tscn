@@ -1,0 +1,38 @@
+[gd_scene load_steps=8 format=3 uid="uid://6xv3cuuaytnh"]
+
+[ext_resource type="Script" path="res://scripts/Node2D/Functions/Functions.gd" id="2_eirep"]
+[ext_resource type="Script" path="res://scripts/Node2D/Classes/Classes.gd" id="3_lb5m7"]
+[ext_resource type="Script" path="res://scripts/Node2D/Arrays.gd" id="4_q0waj"]
+[ext_resource type="Script" path="res://scripts/Node2D/Enums.gd" id="5_pp155"]
+[ext_resource type="Script" path="res://scripts/Node2D/Factorio.gd" id="6_3nlmo"]
+[ext_resource type="Script" path="res://scripts/Node2D/Dictionary.gd" id="7_42yds"]
+[ext_resource type="Script" path="res://scripts/Node2D/Booleans.gd" id="7_kxe7u"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Functions" type="Node2D" parent="."]
+visible = false
+script = ExtResource("2_eirep")
+
+[node name="Classes" type="Node2D" parent="."]
+visible = false
+script = ExtResource("3_lb5m7")
+
+[node name="Arrays" type="Node2D" parent="."]
+script = ExtResource("4_q0waj")
+
+[node name="Enums" type="Node2D" parent="."]
+visible = false
+script = ExtResource("5_pp155")
+
+[node name="Factorio" type="Node2D" parent="."]
+visible = false
+script = ExtResource("6_3nlmo")
+
+[node name="Dictionary" type="Node2D" parent="."]
+visible = false
+script = ExtResource("7_42yds")
+
+[node name="Booleans" type="Node2D" parent="."]
+visible = false
+script = ExtResource("7_kxe7u")

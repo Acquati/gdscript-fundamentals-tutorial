@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://6xv3cuuaytnh"]
+
+[ext_resource type="Script" path="res://scripts/Node2D/Node2D.gd" id="1_p5pjk"]
+[ext_resource type="Script" path="res://scripts/Node2D/Functions/Functions.gd" id="2_eirep"]
+[ext_resource type="Script" path="res://scripts/Node2D/Classes/Classes.gd" id="3_lb5m7"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_p5pjk")
+
+[node name="Functions" type="Node2D" parent="."]
+script = ExtResource("2_eirep")
+
+[node name="Classes" type="Node2D" parent="."]
+script = ExtResource("3_lb5m7")
