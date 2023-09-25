@@ -11,7 +11,6 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Functions" type="Node2D" parent="."]
-visible = false
 script = ExtResource("2_eirep")
 
 [node name="Classes" type="Node2D" parent="."]
@@ -19,6 +18,7 @@ visible = false
 script = ExtResource("3_lb5m7")
 
 [node name="Arrays" type="Node2D" parent="."]
+visible = false
 script = ExtResource("4_q0waj")
 
 [node name="Enums" type="Node2D" parent="."]
