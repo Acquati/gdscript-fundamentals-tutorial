@@ -1,10 +1,10 @@
 # GDScript Fundamentals Tutorial Notes
 
-**Youtube Playlist
+** Youtube Playlist
 
 [Godot GDScript Tutorial](https://www.youtube.com/watch?v=itKLmCwGeNs&list=PLJ690cxlZTgL4i3sjTPRQTyrJ5TTkYJ2_&index=1)
 
-**To run this program do the following:**
+** To run this program do the following:**
 
 1. Download Godot Engine
 2. Download/Clone this repo to your computer
