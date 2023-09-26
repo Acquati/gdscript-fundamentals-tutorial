@@ -11,6 +11,7 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Functions" type="Node2D" parent="."]
+visible = false
 script = ExtResource("2_eirep")
 
 [node name="Classes" type="Node2D" parent="."]
