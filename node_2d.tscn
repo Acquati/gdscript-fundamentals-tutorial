@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://6xv3cuuaytnh"]
+[gd_scene load_steps=9 format=3 uid="uid://6xv3cuuaytnh"]
 
 [ext_resource type="Script" path="res://scripts/Node2D/Functions/Functions.gd" id="2_eirep"]
 [ext_resource type="Script" path="res://scripts/Node2D/Classes/Classes.gd" id="3_lb5m7"]
@@ -7,6 +7,7 @@
 [ext_resource type="Script" path="res://scripts/Node2D/Factorio.gd" id="6_3nlmo"]
 [ext_resource type="Script" path="res://scripts/Node2D/Dictionary.gd" id="7_42yds"]
 [ext_resource type="Script" path="res://scripts/Node2D/Booleans.gd" id="7_kxe7u"]
+[ext_resource type="Script" path="res://scripts/Node2D/ClassInheritance/ClassInheritance.gd" id="8_fyxsk"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -37,3 +38,6 @@ script = ExtResource("7_42yds")
 [node name="Booleans" type="Node2D" parent="."]
 visible = false
 script = ExtResource("7_kxe7u")
+
+[node name="ClassInheritance" type="Node2D" parent="."]
+script = ExtResource("8_fyxsk")

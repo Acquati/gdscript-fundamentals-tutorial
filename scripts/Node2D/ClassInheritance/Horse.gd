@@ -5,7 +5,7 @@ class_name Horse
 
 var FirstName: String: set = setFirstName, get = getFirstName
 
-func _init(firstName: String = 'Godot', food: String = 'Orange'):
+func _init(firstName: String = 'Godot', food: String = 'orange'):
 	setFood(food)
 	setFirstName(firstName)
 

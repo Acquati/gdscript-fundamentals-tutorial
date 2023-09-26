@@ -4,4 +4,4 @@ extends Animal
 class_name Frog
 
 func _init():
-	setFood('Bugs')
+	setFood('bugs')
