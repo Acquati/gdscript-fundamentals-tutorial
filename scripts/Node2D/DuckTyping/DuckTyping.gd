@@ -24,7 +24,8 @@ func _ready():
 		# Doesn't escape our if statement safety check!
 		animalFliesSafely(Animal)
 		animalFliesSafely(Duck)
-		# animalFliesSafely(Circle) # Object class circle is casted/turned into a null value
+		animalFliesSafely(Circle) # Object class circle is casted/turned into a null value
+		animalFliesSafely(null)
 
 # No Type Safety.
 func letItFly(flyingObject):
@@ -37,7 +38,7 @@ func animalFlies(animalObject: AnimalDuckTyping):
 
 
 # Check for the objects casted as Nulls
-func animalFliesSafely(animalObject: AnimalDuckTyping):
+func animalFliesSafely(animalObject):
 	
 	# Option 1
 	if animalObject == null:
