@@ -6,7 +6,7 @@ var Food: String: set = setFood, get = getFood
 func _init(food: String = 'something'):
 	Food = food
 
-func eat():
+func eat() -> void:
 	print('Eating ' + getFood() + '.')
 
 func setFood(food: String) -> void:

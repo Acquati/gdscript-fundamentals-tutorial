@@ -15,8 +15,8 @@ func setFirstName(firstName: String) -> void:
 func getFirstName() -> String:
 	return FirstName
 
-func eat():
+func eat() -> void:
 	print(getFirstName(),' really wants to eat that ', getFood(), '.')
 
-func sleep():
+func sleep() -> void:
 	print(getFirstName(), ' is sleeping.')
