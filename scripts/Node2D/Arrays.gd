@@ -120,7 +120,6 @@ func _ready():
 		
 		print("For loop print: ")
 		var stringValue: String = "String Show"
-		var test: String = stringValue
 		for character in stringValue:
 			print(character)
 		

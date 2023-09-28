@@ -31,7 +31,7 @@ func _ready():
 		var emptyDict = {}
 
 		# Create dictionary, int and string allowed for keys.
-		var dictionary = {
+		var _dictionary = {
 			1: "Hi",
 			"key": "World"
 		}

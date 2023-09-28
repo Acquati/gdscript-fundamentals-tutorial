@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://6xv3cuuaytnh"]
+[gd_scene load_steps=14 format=3 uid="uid://6xv3cuuaytnh"]
 
 [ext_resource type="Script" path="res://scripts/Node2D/Functions/Functions.gd" id="2_eirep"]
 [ext_resource type="Script" path="res://scripts/Node2D/Classes/Classes.gd" id="3_lb5m7"]
@@ -12,6 +12,7 @@
 [ext_resource type="Script" path="res://scripts/Node2D/StaticFunctions/StaticFunctions.gd" id="10_62jcp"]
 [ext_resource type="Script" path="res://scripts/Node2D/ExportKeyword.gd" id="11_bnag4"]
 [ext_resource type="Script" path="res://scripts/Node2D/SetGet/SetGet.gd" id="12_hntfl"]
+[ext_resource type="Script" path="res://scripts/Node2D/FakeProtectedVariable/FakeProtectedVariable.gd" id="13_3klhg"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -65,4 +66,8 @@ enumString = "Up"
 enumStringInitValue = "Down"
 
 [node name="SetGet" type="Node2D" parent="."]
+visible = false
 script = ExtResource("12_hntfl")
+
+[node name="FakeProtectedVariable" type="Node2D" parent="."]
+script = ExtResource("13_3klhg")

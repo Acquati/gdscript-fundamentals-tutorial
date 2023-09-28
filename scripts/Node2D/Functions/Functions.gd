@@ -21,7 +21,7 @@ func _ready():
 		Player.new('Phrase is now: \'Static call.\'').printPhrase()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	pass
 	
 # Basic Function with parameter data type.

@@ -11,15 +11,15 @@ func _ready():
 		frogObject.setFood('cats')
 		frogObject.eat() # print Eating cats.		
 		
-		var object: Object
-		var node: Node
-		var animal: Animal
+		var _object: Object
+		# var _node: Node
+		var _animal: Animal
 		
-		object = Frog.new() as Object
-		# node = Frog.new() as Node # error
-		animal = Frog.new() as Animal
+		_object = Frog.new() as Object
+		# _node = Frog.new() as Node # error
+		_animal = Frog.new() as Animal
 		
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	pass
