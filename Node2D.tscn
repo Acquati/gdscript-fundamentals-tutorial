@@ -70,4 +70,5 @@ visible = false
 script = ExtResource("12_hntfl")
 
 [node name="FakeProtectedVariable" type="Node2D" parent="."]
+visible = false
 script = ExtResource("13_3klhg")
