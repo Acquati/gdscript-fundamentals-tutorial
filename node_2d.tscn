@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://6xv3cuuaytnh"]
+[gd_scene load_steps=12 format=3 uid="uid://6xv3cuuaytnh"]
 
 [ext_resource type="Script" path="res://scripts/Node2D/Functions/Functions.gd" id="2_eirep"]
 [ext_resource type="Script" path="res://scripts/Node2D/Classes/Classes.gd" id="3_lb5m7"]
@@ -10,6 +10,7 @@
 [ext_resource type="Script" path="res://scripts/Node2D/ClassInheritance/ClassInheritance.gd" id="8_fyxsk"]
 [ext_resource type="Script" path="res://scripts/Node2D/DuckTyping/DuckTyping.gd" id="9_861n8"]
 [ext_resource type="Script" path="res://scripts/Node2D/StaticFunctions/StaticFunctions.gd" id="10_62jcp"]
+[ext_resource type="Script" path="res://scripts/Node2D/ExportKeyword.gd" id="11_bnag4"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -50,4 +51,13 @@ visible = false
 script = ExtResource("9_861n8")
 
 [node name="StaticFunctions" type="Node2D" parent="."]
+visible = false
 script = ExtResource("10_62jcp")
+
+[node name="ExportKeyword" type="Node2D" parent="."]
+script = ExtResource("11_bnag4")
+anotherString = "Hello"
+aInt = 25
+enumInt = 1
+enumString = "Up"
+enumStringInitValue = "Down"
