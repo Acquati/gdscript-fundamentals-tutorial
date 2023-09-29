@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="gdscript-fundamentals-tutorial"
-run/main_scene="res://Node2D.tscn"
+run/main_scene="res://node_2d.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"

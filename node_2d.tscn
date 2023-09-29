@@ -1,0 +1,73 @@
+[gd_scene load_steps=15 format=3 uid="uid://6xv3cuuaytnh"]
+
+[ext_resource type="Script" path="res://scripts/node_2d/functions/functions.gd" id="1_qjrct"]
+[ext_resource type="Script" path="res://scripts/node_2d/classes/classes.gd" id="2_5inyn"]
+[ext_resource type="Script" path="res://scripts/node_2d/arrays.gd" id="3_0tu8t"]
+[ext_resource type="Script" path="res://scripts/node_2d/enums.gd" id="4_6fbwr"]
+[ext_resource type="Script" path="res://scripts/node_2d/factorio.gd" id="5_0r51e"]
+[ext_resource type="Script" path="res://scripts/node_2d/dictionary.gd" id="6_0sdhv"]
+[ext_resource type="Script" path="res://scripts/node_2d/booleans.gd" id="7_0tyog"]
+[ext_resource type="Script" path="res://scripts/node_2d/class_inheritance/class_inheritance.gd" id="8_7nb7j"]
+[ext_resource type="Script" path="res://scripts/node_2d/duck_typing/duck_typing.gd" id="9_a4vtb"]
+[ext_resource type="Script" path="res://scripts/node_2d/static_functions/static_functions.gd" id="10_5uiwh"]
+[ext_resource type="Script" path="res://scripts/node_2d/export_keyword.gd" id="11_1t4xe"]
+[ext_resource type="Script" path="res://scripts/node_2d/set_get/set_get.gd" id="12_quwno"]
+[ext_resource type="Script" path="res://scripts/node_2d/fake_protected_variable/fake_protected_variable.gd" id="13_mlafi"]
+[ext_resource type="Script" path="res://scripts/node_2d/namespaces/namespaces.gd" id="14_msc3p"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Functions" type="Node2D" parent="."]
+visible = false
+script = ExtResource("1_qjrct")
+
+[node name="Classes" type="Node2D" parent="."]
+visible = false
+script = ExtResource("2_5inyn")
+
+[node name="Arrays" type="Node2D" parent="."]
+visible = false
+script = ExtResource("3_0tu8t")
+
+[node name="Enums" type="Node2D" parent="."]
+visible = false
+script = ExtResource("4_6fbwr")
+
+[node name="Factorio" type="Node2D" parent="."]
+script = ExtResource("5_0r51e")
+
+[node name="Dictionary" type="Node2D" parent="."]
+visible = false
+script = ExtResource("6_0sdhv")
+
+[node name="Booleans" type="Node2D" parent="."]
+visible = false
+script = ExtResource("7_0tyog")
+
+[node name="ClassInheritance" type="Node2D" parent="."]
+visible = false
+script = ExtResource("8_7nb7j")
+
+[node name="DuckTyping" type="Node2D" parent="."]
+visible = false
+script = ExtResource("9_a4vtb")
+
+[node name="StaticFunctions" type="Node2D" parent="."]
+visible = false
+script = ExtResource("10_5uiwh")
+
+[node name="ExportKeyword" type="Node2D" parent="."]
+visible = false
+script = ExtResource("11_1t4xe")
+
+[node name="SetGet" type="Node2D" parent="."]
+visible = false
+script = ExtResource("12_quwno")
+
+[node name="FakeProtectedVariable" type="Node2D" parent="."]
+visible = false
+script = ExtResource("13_mlafi")
+
+[node name="Namespaces" type="Node2D" parent="."]
+visible = false
+script = ExtResource("14_msc3p")
