@@ -1,64 +1,65 @@
-[gd_scene load_steps=14 format=3 uid="uid://6xv3cuuaytnh"]
+[gd_scene load_steps=15 format=3 uid="uid://6xv3cuuaytnh"]
 
-[ext_resource type="Script" path="res://scripts/Node2D/Functions/Functions.gd" id="2_eirep"]
-[ext_resource type="Script" path="res://scripts/Node2D/Classes/Classes.gd" id="3_lb5m7"]
-[ext_resource type="Script" path="res://scripts/Node2D/Arrays.gd" id="4_q0waj"]
-[ext_resource type="Script" path="res://scripts/Node2D/Enums.gd" id="5_pp155"]
-[ext_resource type="Script" path="res://scripts/Node2D/Factorio.gd" id="6_3nlmo"]
-[ext_resource type="Script" path="res://scripts/Node2D/Dictionary.gd" id="7_42yds"]
-[ext_resource type="Script" path="res://scripts/Node2D/Booleans.gd" id="7_kxe7u"]
-[ext_resource type="Script" path="res://scripts/Node2D/ClassInheritance/ClassInheritance.gd" id="8_fyxsk"]
-[ext_resource type="Script" path="res://scripts/Node2D/DuckTyping/DuckTyping.gd" id="9_861n8"]
-[ext_resource type="Script" path="res://scripts/Node2D/StaticFunctions/StaticFunctions.gd" id="10_62jcp"]
-[ext_resource type="Script" path="res://scripts/Node2D/ExportKeyword.gd" id="11_bnag4"]
-[ext_resource type="Script" path="res://scripts/Node2D/SetGet/SetGet.gd" id="12_hntfl"]
-[ext_resource type="Script" path="res://scripts/Node2D/FakeProtectedVariable/FakeProtectedVariable.gd" id="13_3klhg"]
+[ext_resource type="Script" path="res://scripts/Node2D/Functions/Functions.gd" id="1_oxy6l"]
+[ext_resource type="Script" path="res://scripts/Node2D/Classes/Classes.gd" id="2_sui0d"]
+[ext_resource type="Script" path="res://scripts/Node2D/Arrays.gd" id="3_m2vog"]
+[ext_resource type="Script" path="res://scripts/Node2D/Enums.gd" id="4_uf15o"]
+[ext_resource type="Script" path="res://scripts/Node2D/Factorio.gd" id="5_8q5o0"]
+[ext_resource type="Script" path="res://scripts/Node2D/Dictionary.gd" id="6_1u80j"]
+[ext_resource type="Script" path="res://scripts/Node2D/Booleans.gd" id="7_4wm6c"]
+[ext_resource type="Script" path="res://scripts/Node2D/ClassInheritance/ClassInheritance.gd" id="8_4xgu4"]
+[ext_resource type="Script" path="res://scripts/Node2D/DuckTyping/DuckTyping.gd" id="9_x3ksc"]
+[ext_resource type="Script" path="res://scripts/Node2D/StaticFunctions/StaticFunctions.gd" id="10_sjvum"]
+[ext_resource type="Script" path="res://scripts/Node2D/ExportKeyword.gd" id="11_qieks"]
+[ext_resource type="Script" path="res://scripts/Node2D/SetGet/SetGet.gd" id="12_muyb0"]
+[ext_resource type="Script" path="res://scripts/Node2D/FakeProtectedVariable/FakeProtectedVariable.gd" id="13_vohep"]
+[ext_resource type="Script" path="res://scripts/Node2D/Namespaces/Namespaces.gd" id="14_va2ck"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Functions" type="Node2D" parent="."]
 visible = false
-script = ExtResource("2_eirep")
+script = ExtResource("1_oxy6l")
 
 [node name="Classes" type="Node2D" parent="."]
 visible = false
-script = ExtResource("3_lb5m7")
+script = ExtResource("2_sui0d")
 
 [node name="Arrays" type="Node2D" parent="."]
 visible = false
-script = ExtResource("4_q0waj")
+script = ExtResource("3_m2vog")
 
 [node name="Enums" type="Node2D" parent="."]
 visible = false
-script = ExtResource("5_pp155")
+script = ExtResource("4_uf15o")
 
 [node name="Factorio" type="Node2D" parent="."]
 visible = false
-script = ExtResource("6_3nlmo")
+script = ExtResource("5_8q5o0")
 
 [node name="Dictionary" type="Node2D" parent="."]
 visible = false
-script = ExtResource("7_42yds")
+script = ExtResource("6_1u80j")
 
 [node name="Booleans" type="Node2D" parent="."]
 visible = false
-script = ExtResource("7_kxe7u")
+script = ExtResource("7_4wm6c")
 
 [node name="ClassInheritance" type="Node2D" parent="."]
 visible = false
-script = ExtResource("8_fyxsk")
+script = ExtResource("8_4xgu4")
 
 [node name="DuckTyping" type="Node2D" parent="."]
 visible = false
-script = ExtResource("9_861n8")
+script = ExtResource("9_x3ksc")
 
 [node name="StaticFunctions" type="Node2D" parent="."]
 visible = false
-script = ExtResource("10_62jcp")
+script = ExtResource("10_sjvum")
 
 [node name="ExportKeyword" type="Node2D" parent="."]
 visible = false
-script = ExtResource("11_bnag4")
+script = ExtResource("11_qieks")
 anotherString = "Hello"
 aInt = 25
 enumInt = 1
@@ -67,8 +68,11 @@ enumStringInitValue = "Down"
 
 [node name="SetGet" type="Node2D" parent="."]
 visible = false
-script = ExtResource("12_hntfl")
+script = ExtResource("12_muyb0")
 
 [node name="FakeProtectedVariable" type="Node2D" parent="."]
 visible = false
-script = ExtResource("13_3klhg")
+script = ExtResource("13_vohep")
+
+[node name="Namespaces" type="Node2D" parent="."]
+script = ExtResource("14_va2ck")
