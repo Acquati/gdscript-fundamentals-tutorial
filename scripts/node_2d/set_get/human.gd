@@ -7,7 +7,7 @@ func _ready():
 	print(unique_name) # Does not call method, Jane is assigned.
 	
 	self.unique_name = "Aurora" # Activates setter.
-	self.unique_name # Activates getter.
+	print(self.unique_name) # Activates getter.
 
 func set_unique_name(value):
 	unique_name = value

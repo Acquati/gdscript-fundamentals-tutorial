@@ -5,12 +5,12 @@ class_name Horse
 
 var first_name: String: set = set_first_name, get = get_first_name
 
-func _init(firstName: String = 'Godot', food: String = 'orange'):
-	set_food(food)
-	set_first_name(firstName)
+func _init(value_1: String = 'Godot', value_2: String = 'orange'):
+	set_first_name(value_1)
+	set_food(value_2)
 
-func set_first_name(firstName: String) -> void:
-	first_name = firstName
+func set_first_name(value: String) -> void:
+	first_name = value
 
 func get_first_name() -> String:
 	return first_name
